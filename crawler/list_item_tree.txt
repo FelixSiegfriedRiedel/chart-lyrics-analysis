@@ -1,0 +1,25 @@
+<li class="chart-list__element display--flex">
+                <button class="chart-element__wrapper display--flex flex--grow sort--default">
+                    <span class="chart-element__rank flex--column flex--xy-center flex--no-shrink">
+                        <span class="chart-element__rank__number">1</span>
+                                                    <span class="chart-element__trend chart-element__trend--steady color--secondary"><i class="fa fa-arrow-right"><span class="sr--only">Steady</span></i></span>
+                                            </span>
+                    <span class="chart-element__information">
+                        <span class="chart-element__information__song text--truncate color--primary">All I Want For Christmas Is You</span>
+                                                <span class="chart-element__information__artist text--truncate color--secondary">Mariah Carey</span>
+                                                <span class="chart-element__information__delta color--secondary">
+                            <span class="chart-element__information__delta__text text--default">-</span>
+                            <span class="chart-element__information__delta__text text--last">1 Last Week</span>
+                            <span class="chart-element__information__delta__text text--peak">1 Peak Rank</span>
+                            <span class="chart-element__information__delta__text text--week">37 Weeks on Chart</span>
+                        </span>
+                    </span>
+                    <span class="chart-element__metas display--flex flex--y-center">
+                        <span class="chart-element__meta text--center color--secondary text--last">1</span>
+                        <span class="chart-element__meta text--center color--secondary text--peak">1</span>
+                        <span class="chart-element__meta text--center color--secondary text--week">37</span>
+                    </span>
+
+                    <span class="chart-element__image flex--no-shrink" style="background-image: url('https://charts-static.billboard.com/img/1994/12/mariah-carey-99g-all-i-want-for-christmas-is-you-3w0-53x53.jpg');"></span>
+                </button>
+            </li>
