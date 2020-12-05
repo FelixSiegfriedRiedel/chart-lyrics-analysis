@@ -13,6 +13,9 @@
 
 ## Common packages for exploring and manipulating data
 `pip install numpy`
+
 `pip install pandas`
+
 `pip install seaborn`
+
 `pip install matplotlib`
