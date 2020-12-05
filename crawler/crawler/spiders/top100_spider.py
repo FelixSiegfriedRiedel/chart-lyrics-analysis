@@ -27,7 +27,7 @@ class Top100ListSpider(scrapy.Spider):
                 'song': list_element.css('span.chart-element__information__song::text').get(),
                 'rank_last_week': list_element.css('span.chart-element__information__delta__text.text--last::text').get(),
                 'peak_rank': list_element.css('span.chart-element__information__delta__text.text--peak::text').get(),
-                'weeks_on_chart': list_element.css('span.chart-element__information__delta__text.text--last::text').get(),
+                'weeks_on_chart': list_element.css('span.chart-element__information__delta__text.text--week::text').get(),
                 'date': week_date
             }
         if self.week_id < len(self.week_dates):
