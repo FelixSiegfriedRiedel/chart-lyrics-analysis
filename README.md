@@ -19,3 +19,8 @@
 `pip install seaborn`
 
 `pip install matplotlib`
+
+# Crawling Billboard's weekly top 100 list
+*Crawling is rather time consuming and is only necessary when new weekly list is available*
+`cd crawler`
+`scrapy crawl top100 -O ..\input\top100.json`
