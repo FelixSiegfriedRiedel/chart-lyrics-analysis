@@ -8,7 +8,7 @@
 ### [lyricsgenius](https://pypi.org/project/lyricsgenius/) package for calling the Genius API
 `pip install lyricsgenius`
 
-### [Jupyter](https://jupyter.org/) for creating jupyter notebooks
+### [Jupyter](https://jupyter.org/) package for creating jupyter notebooks
 `pip install jupyter`
 
 ### Common packages for exploring and manipulating data
