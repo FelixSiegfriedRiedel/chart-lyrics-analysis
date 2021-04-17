@@ -40,9 +40,9 @@ def get_lyrics(title, artist):
 
     return lyrics
 
-# artist_song = pd.read_csv('output/artist_song.csv', encoding='utf8')
-artist_song = pd.read_json('output/artist_song.json')
-artist_song['lyrics'] = ''
+
+artist_song = pd.read_json('data/artist_song/artist_song.json')
+#artist_song['lyrics'] = ''
 
 # updates csv file every 20 entries
 for i in range(0, 1281, 20):
