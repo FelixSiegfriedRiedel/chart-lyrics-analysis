@@ -45,19 +45,19 @@ artist_song = pd.read_json('output/artist_song.json')
 artist_song['lyrics'] = ''
 
 # updates csv file every 20 entries
-for i in range(0, 741, 20):
+for i in range(0, 1281, 20):
     j = i + 20
     safe = artist_song.iloc[i:j].copy()
     safe['lyrics'] = np.vectorize(get_lyrics)(safe['song'], safe['artist'])
     artist_song['lyrics'].update(safe['lyrics'])
-    artist_song.to_csv('output/artist_song_lyrics.csv')
+    artist_song.to_csv('data/lyrics/artist_song_lyrics.csv')
     # indicator showing progress
-    print('\n', j, '/', 768)
+    print('\n', j, '/', 1309)
 
 # adds the remaining lyrics
-safe = artist_song.iloc[761:].copy()
+safe = artist_song.iloc[1301:].copy()
 safe['lyrics'] = np.vectorize(get_lyrics)(safe['song'], safe['artist'])
 artist_song['lyrics'].update(safe['lyrics'])
-artist_song.to_csv('output/artist_song_lyrics.csv', encoding='utf-16')
-print('\n', 768, '/', 768)
+artist_song.to_csv('data/lyrics/artist_song_lyrics.csv', encoding='utf-16')
+print('\n', 1309, '/', 1309)
 print(' Done!')
