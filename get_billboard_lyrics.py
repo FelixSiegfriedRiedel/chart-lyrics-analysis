@@ -1,23 +1,43 @@
 import lyricsgenius
 import numpy as np
 import pandas as pd
+from requests.exceptions import HTTPError, Timeout
 
 token_file = open("genius_token.txt", "r")
 token = token_file.read()
 token_file.close()
 
-genius = lyricsgenius.Genius(token)
+genius = lyricsgenius.Genius(token, response_format='plain', timeout=5, sleep_time=0.1)
 genius.verbose = False
 genius.remove_section_headers = True
+genius.skip_non_songs = True
+genius.retries = 2
+
 
 def get_lyrics(title, artist):
-    song = genius.search_song(title, artist)
-    if song:
-        lyrics = song.lyrics.replace('\n', ' ').replace('\r', '')
-        print('#', end='')
-    else:
-        lyrics = ''
-        print('X', end='')
+    try:
+        song = genius.search_song(title, artist)
+        if song:
+            lyrics = song.lyrics.replace('\n', ' ').replace('\r', '')
+            print('#', end='')
+        else:
+            lyrics = '!NoSong!'
+            print('X', end='')
+
+    # except HTTPError:
+    #     lyrics = '!HTTPError!'
+    #     print('E', end='')
+    # except Timeout:
+    #     lyrics = '!Timeout!'
+    #     print('E', end='')
+    # except TypeError:
+    #     lyrics = '!TypeError!'
+    #     print('E', end='')
+
+    except:
+        lyrics = '!Error!'
+        print('E', end='')
+
     return lyrics
 
 # artist_song = pd.read_csv('output/artist_song.csv', encoding='utf8')
