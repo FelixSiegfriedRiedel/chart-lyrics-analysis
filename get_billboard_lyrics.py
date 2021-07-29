@@ -14,15 +14,32 @@ genius.skip_non_songs = True
 genius.retries = 2
 
 
+def get_artist(artist):
+    try:
+        genius_artist = genius.search_artist(artist, max_songs=1)
+        name = genius_artist.name
+    except:
+        name = '!Error!'
+
+    return name
+
+
 def get_lyrics(title, artist):
     try:
-        song = genius.search_song(title, artist)
+        genius_artist = get_artist(artist)
+        if genius_artist != '!Error!':
+            song = genius.search_song(title, genius_artist)
+        else:
+            song = genius.search_song(title, artist)
+
         if song:
             lyrics = song.lyrics.replace('\n', ' ').replace('\r', '')
             print('#', end='')
         else:
             lyrics = '!NoSong!'
             print('X', end='')
+
+
 
     # except HTTPError:
     #     lyrics = '!HTTPError!'
@@ -42,7 +59,7 @@ def get_lyrics(title, artist):
 
 
 artist_song = pd.read_json('data/artist_song/artist_song.json')
-#artist_song['lyrics'] = ''
+artist_song['lyrics'] = ''
 
 # updates csv file every 20 entries
 for i in range(0, 1281, 20):
@@ -58,6 +75,6 @@ for i in range(0, 1281, 20):
 safe = artist_song.iloc[1301:].copy()
 safe['lyrics'] = np.vectorize(get_lyrics)(safe['song'], safe['artist'])
 artist_song['lyrics'].update(safe['lyrics'])
-artist_song.to_csv('data/lyrics/artist_song_lyrics.csv', encoding='utf-16')
+artist_song.to_csv('data/lyrics/artist_song_lyrics.csv', encoding='utf-8')
 print('\n', 1309, '/', 1309)
 print(' Done!')
