@@ -125,3 +125,5 @@ pip-selfcheck.json
 #Genius Token
 /genius_token.txt
 /.ipynb_checkpoints/lyrics-checkpoint.ipynb
+/.ipynb_checkpoints/
+/.idea/
