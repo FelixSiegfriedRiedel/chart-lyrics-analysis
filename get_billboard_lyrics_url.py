@@ -1,7 +1,5 @@
 import lyricsgenius
-import numpy as np
 import pandas as pd
-from requests.exceptions import HTTPError, Timeout
 
 def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
     """
@@ -35,36 +33,28 @@ genius.remove_section_headers = True
 genius.skip_non_songs = True
 genius.retries = 1
 
-def get_lyrics(title, artist):
+def get_lyrics(url):
     try:
-        song = genius.search_song(title, artist)
-        if song:
-            lyrics = song.lyrics
-            url = 'https://genius.com' + song.path
-        else:
-            lyrics = '!NoSong!'
-            url = ''
+        lyrics = genius.lyrics(song_url=url)
     except:
         lyrics = '!Error!'
-        url = ''
-
-    return lyrics, url
-
+    return lyrics
 
 lyrics_list = []
-url_list = []
+lyrics_invalid = pd.read_json('data/artist_song/lyrics_invalid.json')
+length = len(lyrics_invalid)
 
-artist_song = pd.read_json('data/artist_song/artist_song.json')
-length = len(artist_song)
 printProgressBar(0, length, prefix='Progress:', suffix='Complete', length=50)
-
 for i in range(0, length):
-    lyrics, url = get_lyrics(artist_song['song'].iloc[i], artist_song['artist'].iloc[i])
+    lyrics = get_lyrics(lyrics_invalid['url'].iloc[i])
     lyrics_list.append(lyrics)
-    url_list.append(url)
     printProgressBar(i + 1, length, prefix='Progress:', suffix='Complete', length=50)
 
-artist_song['lyrics'] = lyrics_list
-artist_song['url'] = url_list
+lyrics_invalid['lyrics'] = lyrics_list
 
-artist_song.to_csv('data/lyrics/bb-t100-lyrics.csv', encoding='utf-8')
+lyrics_invalid.to_csv('data/lyrics/lyrics_invalid_updated.csv', encoding='utf-8')
+
+
+
+
+
