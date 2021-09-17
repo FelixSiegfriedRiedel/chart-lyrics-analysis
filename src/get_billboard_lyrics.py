@@ -35,7 +35,7 @@ def get_lyrics(title, artist):
 lyrics_list = []
 url_list = []
 
-artist_song = pd.read_json('data/artist_song/artist_song.json')
+artist_song = pd.read_json('../data/artist_song/artist_song.json')
 length = len(artist_song)
 printProgressBar(0, length, prefix='Progress:', suffix='Complete', length=50)
 
