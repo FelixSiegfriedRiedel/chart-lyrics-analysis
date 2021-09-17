@@ -1,0 +1,8 @@
+{
+  "labels":[
+    "is_corona_song",
+    "is_not_corona_song"
+  ],
+  "threshold":0.5,
+  "positive_label":null
+}
