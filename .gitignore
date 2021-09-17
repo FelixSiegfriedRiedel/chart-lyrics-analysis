@@ -123,7 +123,7 @@ pip-selfcheck.json
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,venv
 
 #Genius Token
-/genius_token.txt
+/src/genius_token.txt
 /.ipynb_checkpoints/lyrics-checkpoint.ipynb
 /.ipynb_checkpoints/
 /.idea/
