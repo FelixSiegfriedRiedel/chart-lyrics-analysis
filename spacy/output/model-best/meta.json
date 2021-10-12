@@ -20,8 +20,8 @@
 
     ],
     "textcat":[
-      "is_corona_song",
-      "is_not_corona_song"
+      "is_corona_line",
+      "is_not_corona_line"
     ]
   },
   "pipeline":[
@@ -46,12 +46,12 @@
     "cats_macro_f":1.0,
     "cats_macro_auc":1.0,
     "cats_f_per_type":{
-      "is_corona_song":{
+      "is_corona_line":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "is_not_corona_song":{
+      "is_not_corona_line":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -59,6 +59,6 @@
     },
     "cats_macro_auc_per_type":0.0,
     "tok2vec_loss":0.0,
-    "textcat_loss":0.0007938352
+    "textcat_loss":0.0000469493
   }
 }
