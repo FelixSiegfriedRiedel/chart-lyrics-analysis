@@ -5,7 +5,6 @@ from requests.exceptions import HTTPError, Timeout
 
 from progress_bar import printProgressBar
 
-
 token_file = open("genius_token.txt", "r")
 token = token_file.read()
 token_file.close()
@@ -15,6 +14,7 @@ genius.verbose = False
 genius.remove_section_headers = True
 genius.skip_non_songs = True
 genius.retries = 1
+
 
 def get_genius_resources(title, artist):
     result_dict = {}
@@ -54,8 +54,6 @@ def get_genius_resources(title, artist):
     return result_dict
 
 
-
-
 lyrics_list = []
 url_list = []
 id_list = []
@@ -90,5 +88,5 @@ artist_song['genius_annotations'] = annotations_list
 artist_song['genius_comments'] = comments_list
 artist_song['release_date'] = release_date_list
 
-artist_song.to_csv('../data/lyrics/bb-t100-lyrics_new.csv', encoding='utf-8')
-artist_song.to_excel('../data/output/bb-t100-lyrics_new.xlsx')
+artist_song.to_csv('../data/lyrics/artist_song_lyrics_new.csv', encoding='utf-8')
+artist_song.to_excel('../data/output/artist_song_lyrics_new.xlsx')
