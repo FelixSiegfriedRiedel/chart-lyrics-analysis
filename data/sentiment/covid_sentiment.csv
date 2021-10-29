@@ -1,4 +1,4 @@
-,billboard_id,lyrics_id,artist,song,genius_id,lyrics,url,first_appearance,release_date,sentiment_polarity,sentiment_subjectivity
+,billboard_id,lyrics_id,artist,song,genius_id,lyrics,url,first_appearance,release_date,sentiment_polarity,sentiment_subjectivity,sentiment_polarity_v2,sentiment_subjectivity_v2
 0,6822,850,twenty one pilots,Level Of Concern,5428841,"Need you, tell me
 Need you, tell me
 
@@ -59,7 +59,7 @@ And I'd be okay, we'll be okay (Level of concern)
 We're gonna be okay (Just need you to tell me we're alright)
 Tell me we're okay, I need you
 Need you, tell me
-Need you, tell me",https://genius.com/Twenty-one-pilots-level-of-concern-lyrics,2020-04-25,2020-04-09,0.18307291666666667,0.4697916666666667
+Need you, tell me",https://genius.com/Twenty-one-pilots-level-of-concern-lyrics,2020-04-25,2020-04-09,0.1830729166666666,0.4697916666666667,0.1819444444444444,0.4744444444444445
 1,6916,862,DaBaby Featuring YoungBoy Never Broke Again,Jump,5465136,"(Cha-ching)
 Okay, let's go, nigga
 (Rocco did it again)
@@ -181,7 +181,7 @@ Get lost on a bitch, ain't nothin', bitch
 Blame it on Baby, nigga, yeah
 Blame it on motherfuckin' Baby, nigga, blame it on Baby, nigga
 Blame it on Baby
-Yeah, let's go",https://genius.com/Dababy-jump-lyrics,2020-05-02,2020-04-17,0.02678555030827759,0.4731013052603961
+Yeah, let's go",https://genius.com/Dababy-jump-lyrics,2020-05-02,2020-04-17,0.0267855503082775,0.4731013052603961,0.0314499365576951,0.4626023473652784
 2,6952,867,DaBaby Featuring Future & jetsonmade,LIGHTSKIN SHIT,5465365,"Uh, uh, uh-huh
 Yeah (Oh Lord, Jetson made another one)
 
@@ -240,7 +240,7 @@ Powerball, bitch, I just hit the Lotto (Cha-ching)
 Tylenol, she too sick, call a doctor (Sick)
 Fuck a pill, where that pussy? I'll pop it (I'll pop)
 I'm a dog, I'ma shit on my last ho
-All the pretty bitches need a asshole, let's go",https://genius.com/Dababy-lightskin-shit-lyrics,2020-05-02,2020-04-17,-0.12826479076479083,0.60622582972583
+All the pretty bitches need a asshole, let's go",https://genius.com/Dababy-lightskin-shit-lyrics,2020-05-02,2020-04-17,-0.1282647907647908,0.60622582972583,-0.127827244304517,0.6262710984301895
 3,6963,870,DaBaby,BLAME IT ON BABY,5462131,"I'm like fuck it, let the beat build, nigga
 I do my own thing, ain’t worry 'bout how he feel nigga, let's go
 Special ed, yeah, I’m a re-re nigga
@@ -309,7 +309,7 @@ I'm the type to let a bitch do what she please (Please)
 I ain't breakin' bread, I'm cheap
 Nine out of ten of these niggas naive
 Lame-ass nigga, might as well be a rat
-Lettin' all these hoes run away with yo' cheese, please",https://genius.com/Dababy-blame-it-on-baby-lyrics,2020-05-02,2020-04-17,0.0761758511758512,0.5002515502515504
+Lettin' all these hoes run away with yo' cheese, please",https://genius.com/Dababy-blame-it-on-baby-lyrics,2020-05-02,2020-04-17,0.0761758511758512,0.5002515502515504,0.1250634423048216,0.518999104343932
 4,7150,903,Drake,Losses,5520818,"Hey, Instagram
 This song I've been writing, oh, for a few months
 I don't know, I, I started writing it about family
@@ -389,7 +389,7 @@ Hold on, hold on
 (I really do know, I know who I wanna be)
 Woo
 Lord, I already passed on all that (Woo)
-You go 'head on, haha",https://genius.com/Drake-losses-lyrics,2020-05-16,2020-05-01,0.005271464646464652,0.46606691919191917
+You go 'head on, haha",https://genius.com/Drake-losses-lyrics,2020-05-16,2020-05-01,0.0052714646464646,0.4660669191919191,0.0072891072891072,0.4844321594321596
 5,7157,905,Luke Combs,Six Feet Apart,5466029,"When the dogwoods start to bloom
 And the crickets hum their tune
 That's usually about the time
@@ -435,7 +435,7 @@ And there will be light after dark
 Some day when we aren't six feet apart
 
 There will be light after dark
-Some day when we aren't six feet apart",https://genius.com/Luke-combs-six-feet-apart-lyrics,2020-05-16,2020-05-01,0.003935185185185185,0.4557870370370371
+Some day when we aren't six feet apart",https://genius.com/Luke-combs-six-feet-apart-lyrics,2020-05-16,2020-05-01,0.0039351851851851,0.4557870370370371,-0.0308641975308642,0.4216049382716049
 6,7164,907,Lil Baby,Social Distancing,5519310,"(Section 8 just straight cooked this motherfucker up)
 (What's happenin', Chi Chi?)
 
@@ -497,7 +497,7 @@ I got a hundred inside of a drum
 We pull up clapping, a round of applause
 We just gon' say that they won the award
 I'm social distancing
-Man, these niggas can't touch me, I can't get sick",https://genius.com/Lil-baby-social-distancing-lyrics,2020-05-16,2020-05-01,-0.07826617826617828,0.5300875050875051
+Man, these niggas can't touch me, I can't get sick",https://genius.com/Lil-baby-social-distancing-lyrics,2020-05-16,2020-05-01,-0.0782661782661782,0.5300875050875051,-0.1174293154761905,0.5267919146825398
 7,7200,912,Ariana Grande & Justin Bieber,Stuck With U,5524080,"Mmm
 Hey, yeah
 (That's just for fun)
@@ -560,7 +560,7 @@ All this lovin' you, hatin' you, wantin' you
 I'm stuck with you, stuck with you, stuck with
 You, oh, oh
 
-Stuck with you, stuck with you, stuck with you",https://genius.com/Ariana-grande-and-justin-bieber-stuck-with-u-lyrics,2020-05-23,2020-05-08,-0.2183159722222222,0.6664930555555555
+Stuck with you, stuck with you, stuck with you",https://genius.com/Ariana-grande-and-justin-bieber-stuck-with-u-lyrics,2020-05-23,2020-05-08,-0.2183159722222222,0.6664930555555555,-0.2245039682539682,0.6795634920634921
 8,7202,913,6ix9ine,Gooba,5545285,"I tell a nigga don't dick ride, don't blick ride
 Leave it to the double thick thighs, twin sisters
 Drop it down and wobble, wobble up, mami booted up
@@ -614,7 +614,7 @@ See it in your face, cry baby, bitch, you big sad
 Niggas tweetin' bout me, got me trendin', bitch, you big sad
 Tell me how I ratted, came home to a big bag
 
-(Jah, ayy, you know that boy)",https://genius.com/6ix9ine-gooba-lyrics,2020-05-23,2020-05-08,-0.2391636141636142,0.5675518925518929
+(Jah, ayy, you know that boy)",https://genius.com/6ix9ine-gooba-lyrics,2020-05-23,2020-05-08,-0.2391636141636142,0.5675518925518929,-0.1966207837301587,0.5635664682539684
 9,7275,918,Chris Brown & Young Thug,Go Crazy,5532594,"Oh, yeah
 (Oh, is that Kaniel again?)
 Oh
@@ -693,7 +693,7 @@ Everybody think you shy, but I know you a freak, lil' baby (Oh)
 Everything you do is amazing (Yeah)
 Ain't nobody watchin', go crazy
 I got what you need
-Everybody think you shy, but I know you a freak, lil' baby",https://genius.com/Chris-brown-and-young-thug-go-crazy-lyrics,2020-05-23,2020-05-05,-0.049350027367268755,0.43508483853311414
+Everybody think you shy, but I know you a freak, lil' baby",https://genius.com/Chris-brown-and-young-thug-go-crazy-lyrics,2020-05-23,2020-05-05,-0.0493500273672687,0.4350848385331141,-0.0688680033416875,0.5250647451963242
 10,7331,923,Future Featuring Travis Scott,Solitaires,5562531,"(Wheezy outta here)
 
 Solitary diamonds, solitary jewels
@@ -760,7 +760,7 @@ With a bitch that's shinin', lookin' like the moon
 Said she wanna party, wanna let it loose
 Bustin' out my back room, she ain't out to loop
 I wanna take care you and your friends (Ooh)
-I put it out, they come in (Ooh)",https://genius.com/Future-solitaires-lyrics,2020-05-30,2020-05-15,-0.023808691308691315,0.3700349650349651
+I put it out, they come in (Ooh)",https://genius.com/Future-solitaires-lyrics,2020-05-30,2020-05-15,-0.0238086913086913,0.3700349650349651,-0.042014756077256,0.3603802447552447
 11,7332,924,Jonas Brothers Featuring Karol G,X,5550049,"Yeah
 Ooh-la-la, by the pool, yeah singing ""Bailando""
 Two long nights with the view, yeah
@@ -822,7 +822,7 @@ Ooh, ooh, ooh
 Ooh, ooh, ooh
 Tonight
 Someone who
-You won't be lonely tonight",https://genius.com/Jonas-brothers-x-lyrics,2020-05-30,2020-05-15,-0.024813311688311683,0.5818722943722945
+You won't be lonely tonight",https://genius.com/Jonas-brothers-x-lyrics,2020-05-30,2020-05-15,-0.0248133116883116,0.5818722943722945,0.0065699006875477,0.5650369238604532
 12,7339,926,Katy Perry,Daisies,5543329,"Told them your dreams, and they all started laughing
 I guess you're out of your mind 'til it actually happens
 
@@ -869,7 +869,7 @@ They tell me that I'm crazy, but I'll never let 'em change me
 They said I'm going nowhere, tried to count me out (Count me out)
 Took those sticks and stones, showed 'em I could build a house
 They tell me that I'm crazy, but I'll never let 'em change me
-'Til they cover me in daisies, daisies, daisies",https://genius.com/Katy-perry-daisies-lyrics,2020-05-30,2020-05-15,-0.2848148148148148,0.5903703703703704
+'Til they cover me in daisies, daisies, daisies",https://genius.com/Katy-perry-daisies-lyrics,2020-05-30,2020-05-15,-0.2848148148148148,0.5903703703703704,-0.294047619047619,0.6119047619047621
 13,7694,976,Brantley Gilbert,Hard Days,5639822,"You would've never learned the words to ""Amazing Grace""
 Never felt the chill of a pew when you lost faith
 Well, blood, sweat, and tears wouldn't mean a thing
@@ -918,7 +918,7 @@ Or ever known your own strength
 If you never had
 If you never had hard days?
 Yeah, if you never had hard days
-Mmm",https://genius.com/Brantley-gilbert-hard-days-lyrics,2020-06-20,2020-06-05,0.12009604978354978,0.5843005952380952
+Mmm",https://genius.com/Brantley-gilbert-hard-days-lyrics,2020-06-20,2020-06-05,0.1200960497835497,0.5843005952380952,0.1220567476002258,0.5934006211180123
 14,7700,978,6ix9ine & Nicki Minaj,Trollz,5498513,"(Sad Pony)
 Watch, mhm, Glock, mhm, cocked, mhm, got it, mhm
 You need that? I got it, this cash, my pockets
@@ -993,7 +993,7 @@ He singin' my old song, yellin', ""Ass, ass, ass""
 They be speedin', tryna beat me, then they crash, crash, crash
 Still a hundred like the number on my dash, dash, dash
 
-That real ass ain't keep your nigga home",https://genius.com/6ix9ine-and-nicki-minaj-trollz-lyrics,2020-06-27,2020-06-12,0.0545054945054945,0.4823076923076923
+That real ass ain't keep your nigga home",https://genius.com/6ix9ine-and-nicki-minaj-trollz-lyrics,2020-06-27,2020-06-12,0.0545054945054945,0.4823076923076923,0.0272402597402597,0.4657792207792209
 15,7702,979,Lil Baby,The Bigger Picture,5660719,"Protests and growing national outcry continues over the death of George Floyd (Section 8 just straight cooked this motherfucker up)
 Last night, people protesting in Minneapolis escalated
 As demonstrators were lashed by tear gas and rubber bullets
@@ -1122,7 +1122,7 @@ But we gotta start somewhere
 Might as well gon' 'head start here
 We done had a hell of a year
 I'ma make it count while I'm here
-God is the only man I fear",https://genius.com/Lil-baby-the-bigger-picture-lyrics,2020-06-27,2020-06-12,-0.06844742063492065,0.5251530067155066
+God is the only man I fear",https://genius.com/Lil-baby-the-bigger-picture-lyrics,2020-06-27,2020-06-12,-0.0684474206349206,0.5251530067155066,-0.0700901875901875,0.5328235653235651
 16,7764,984,Tyla Yaweh & Post Malone,Tommy Lee,5578191,"Ah, shit, I'm just workin' in the studio
 Ah, okay
 You miss me?
@@ -1213,7 +1213,7 @@ Livin' life like a rockstar
 Pullin' up, stretch limousines (Stretch limousines)
 To look at me, that cost a fee (Woah)
 Them double Cs all on my feet (Woah)
-Livin' life like a rockstar",https://genius.com/Tyla-yaweh-tommy-lee-lyrics,2020-06-27,2020-06-12,-0.004308390022675743,0.4836167800453515
+Livin' life like a rockstar",https://genius.com/Tyla-yaweh-tommy-lee-lyrics,2020-06-27,2020-06-12,-0.0043083900226757,0.4836167800453515,0.0166378648233486,0.4155337941628264
 17,7836,990,Beyonce,Black Parade,5689642,"Ah
 
 I'm goin' back to the South
@@ -1302,7 +1302,7 @@ Follow my parade, oh, my parade (Hey, hey, hey)
 Talkin' slick to my folk (My folk), nip that lip like lipo (Lipo)
 Hear 'em swarmin', right? (Zz) Bees is known to bite (Zz, zz)
 Now here we come on our thrones, sittin' high
-Follow my parade, oh, black parade",https://genius.com/Beyonce-black-parade-lyrics,2020-07-04,2020-06-19,-0.04046789860222694,0.4015908552475718
+Follow my parade, oh, black parade",https://genius.com/Beyonce-black-parade-lyrics,2020-07-04,2020-06-19,-0.0404678986022269,0.4015908552475718,-0.0280714285714285,0.4259241622574956
 18,7974,999,6LACK Featuring Lil Baby,Know My Rights,5705685,"I need a fuckin'
 This shit not smokin'
 Alright, yeah
@@ -1382,7 +1382,7 @@ Bet on my life (Bet on my life)
 Paid the price (Paid the price)
 Take no advice (Woo)
 I've been in the field and I know my wrongs
-I know my rights (Rights)",https://genius.com/6lack-know-my-rights-lyrics,2020-07-11,2020-06-26,0.12571684587813617,0.5482974910394267
+I know my rights (Rights)",https://genius.com/6lack-know-my-rights-lyrics,2020-07-11,2020-06-26,0.1257168458781361,0.5482974910394267,0.1422453703703703,0.5347800925925928
 19,8300,1048,Taylor Swift,Cardigan,5793984,"Vintage tee, brand new phone
 High heels on cobblestones
 When you are young, they assume you know nothing
@@ -1445,7 +1445,7 @@ And you'd come back
 
 And when I felt like I was an old cardigan
 Under someone's bed
-You put me on and said I was your favorite",https://genius.com/Taylor-swift-cardigan-lyrics,2020-08-08,2020-07-24,0.12844988344988348,0.4205594405594405
+You put me on and said I was your favorite",https://genius.com/Taylor-swift-cardigan-lyrics,2020-08-08,2020-07-24,0.1284498834498834,0.4205594405594405,0.1309212121212121,0.4267151515151515
 20,8303,1049,Taylor Swift,The 1,5794073,"I'm doing good, I'm on some new shit
 Been saying ""yes"" instead of ""no""
 I thought I saw you at the bus stop, I didn't though
@@ -1498,7 +1498,7 @@ In my defense, I have none
 For digging up the grave another time
 But it would've been fun
 If you would've been the one
-(Ooh)",https://genius.com/Taylor-swift-the-1-lyrics,2020-08-08,2020-07-24,0.29138755980861236,0.5923444976076555
+(Ooh)",https://genius.com/Taylor-swift-the-1-lyrics,2020-08-08,2020-07-24,0.2913875598086123,0.5923444976076555,0.3148200757575757,0.5808238636363636
 21,8325,1054,Taylor Swift,Mirrorball,5793981,"I want you to know
 I'm a mirrorball
 I'll show you every version of yourself tonight
@@ -1541,7 +1541,7 @@ I'm still trying everything to keep you looking at me
 
 Because I'm a mirrorball
 I'm a mirrorball
-And I'll show you every version of yourself tonight",https://genius.com/Taylor-swift-mirrorball-lyrics,2020-08-08,2020-07-24,0.26313131313131316,0.5717171717171717
+And I'll show you every version of yourself tonight",https://genius.com/Taylor-swift-mirrorball-lyrics,2020-08-08,2020-07-24,0.2631313131313131,0.5717171717171717,0.2631313131313131,0.5717171717171717
 22,8334,1055,Taylor Swift,Seven,5793979,"Please picture me in the trees
 I hit my peak at seven
 Feet in the swing over the creek
@@ -1581,7 +1581,7 @@ I still got love for you
 Pack your dolls and a sweater
 We'll move to India forever
 Passed down like folk songs
-Our love lasts so long",https://genius.com/Taylor-swift-seven-lyrics,2020-08-08,2020-07-24,0.19676262626262628,0.5033888888888889
+Our love lasts so long",https://genius.com/Taylor-swift-seven-lyrics,2020-08-08,2020-07-24,0.1967626262626262,0.5033888888888889,0.2139220328282828,0.5432986111111111
 23,8338,1057,Taylor Swift,This Is Me Trying,5793975,"I've been having a hard time adjusting
 I had the shiniest wheels, now they're rusting
 I didn't know if you'd care if I came back
@@ -1614,7 +1614,7 @@ And I just wanted you to know that this is me trying
 (And maybe I don't quite know what to say)
 I just wanted you to know that this is me trying
 
-At least I'm trying",https://genius.com/Taylor-swift-this-is-me-trying-lyrics,2020-08-08,2020-07-24,-0.21037037037037035,0.43425925925925934
+At least I'm trying",https://genius.com/Taylor-swift-this-is-me-trying-lyrics,2020-08-08,2020-07-24,-0.2103703703703703,0.4342592592592593,-0.2238247863247863,0.4225427350427351
 24,8341,1058,Taylor Swift,Betty,5793962,"Betty, I won't make assumptions
 About why you switched your homeroom, but
 I think it's 'cause of me
@@ -1689,7 +1689,7 @@ But I know I miss you
 Standing in your cardigan
 Kissin' in my car again
 Stopped at a streetlight
-You know I miss you",https://genius.com/Taylor-swift-betty-lyrics,2020-08-08,2020-07-24,-0.1409340659340659,0.7193223443223443
+You know I miss you",https://genius.com/Taylor-swift-betty-lyrics,2020-08-08,2020-07-24,-0.1409340659340659,0.7193223443223443,-0.2024844720496894,0.7500517598343686
 25,8345,1060,Maroon 5,Nobody's Love,5785261,"You could make a grown man cry
 If you ever said ""Goodbye""
 Never let you go, oh, I (Never let you go, oh, I)
@@ -1755,7 +1755,7 @@ Nobody, nobody's love
 If my love ain't your love, then it's nobody's
 Only yours, only yours, not just anybody's
 And if you ever leave, then I'm never gon' want
-Nobody, nobody's love",https://genius.com/Maroon-5-nobodys-love-lyrics,2020-08-08,2020-07-24,0.2910714285714286,0.6160714285714289
+Nobody, nobody's love",https://genius.com/Maroon-5-nobodys-love-lyrics,2020-08-08,2020-07-24,0.2910714285714286,0.6160714285714289,0.3105263157894737,0.5921052631578949
 26,8356,1064,Taylor Swift,Epiphany,5793963,"Keep your helmet, keep your life, son
 Just a flesh wound, here's your rifle
 Crawling up the beaches now
@@ -1783,7 +1783,7 @@ Watch you breathe in (Watch you breathe in), watch you breathing out (Out), out 
 Only twenty minutes to sleep
 But you dream of some epiphany
 Just one single glimpse of relief
-To make some sense of what you've seen",https://genius.com/Taylor-swift-epiphany-lyrics,2020-08-08,2020-07-24,-0.11868131868131872,0.3868131868131867
+To make some sense of what you've seen",https://genius.com/Taylor-swift-epiphany-lyrics,2020-08-08,2020-07-24,-0.1186813186813187,0.3868131868131867,-0.0870748299319728,0.4707482993197279
 27,8357,1065,Taylor Swift,Peace,5793961,"Our coming-of-age has come and gone
 Suddenly this summer, it's clear
 I never had the courage of my convictions
@@ -1818,7 +1818,7 @@ But I would die for you in secret
 The devil's in the details, but you got a friend in me
 Would it be enough if I could never give you peace?
 Would it be enough if I could never give you peace?
-Would it be enough if I could never give you peace?",https://genius.com/Taylor-swift-peace-lyrics,2020-08-08,2020-07-24,0.09880952380952382,0.5361111111111111
+Would it be enough if I could never give you peace?",https://genius.com/Taylor-swift-peace-lyrics,2020-08-08,2020-07-24,0.0988095238095238,0.5361111111111111,0.1145833333333333,0.5405092592592592
 28,8405,1069,Billie Eilish,My Future,5798642,"I can't seem to focus
 And you don't seem to notice I'm not here
 I'm just a mirror
@@ -1854,7 +1854,7 @@ With my future
 And you don't know her (Ooh)
 And I, I'm in love (Love, love)
 But not with anybody here
-I'll see you in a couple years",https://genius.com/Billie-eilish-my-future-lyrics,2020-08-15,2020-07-30,0.31666666666666665,0.6138888888888887
+I'll see you in a couple years",https://genius.com/Billie-eilish-my-future-lyrics,2020-08-15,2020-07-30,0.3166666666666666,0.6138888888888887,0.2299999999999999,0.575
 29,8773,1093,Travis Scott,The Plan,5881173,"You don't know where we stand
 It's true
 Know the plan
@@ -1895,7 +1895,7 @@ Ain't no time, I'm facin' scams, nah, nah (Yeah)
 
 You don't know where we stand (Yeah, yeah, yeah, yeah)
 It's true (Yeah, yeah, ooh-ooh, ooh)
-Ooh",https://genius.com/Travis-scott-the-plan-lyrics,2020-09-05,2020-08-22,0.0367003367003367,0.2884259259259259
+Ooh",https://genius.com/Travis-scott-the-plan-lyrics,2020-09-05,2020-08-22,0.0367003367003367,0.2884259259259259,0.0369388327721661,0.3425925925925926
 30,8961,1106,Lil Durk,The Voice,5926814,"(Turn me up, Josh)
 
 I was goin' through that pain alone
@@ -1936,7 +1936,7 @@ Took a picture on my block, they think I'm back in the field
 Please don't turn away from me
 I got enough on my plate tryna turn away, tryna turn away
 Became the voice of the streets and my people ain't believe in me
-I'm supportive of the streets and them people ain't believe in me",https://genius.com/Lil-durk-the-voice-lyrics,2020-09-19,2020-09-04,0.04910714285714285,0.5702380952380952
+I'm supportive of the streets and them people ain't believe in me",https://genius.com/Lil-durk-the-voice-lyrics,2020-09-19,2020-09-04,0.0491071428571428,0.5702380952380952,0.0322055137844611,0.5701127819548872
 31,8996,1114,Big Sean,Why Would I Stop?,5917242,"Yeah, woah
 This what they been waiting on?
 Critical, ain't no time left on the clock
@@ -2002,7 +2002,7 @@ I'm a threat leaving out the driveway (Swerve-swerve-swerve-swerve)
 I never listen to what the odds say
 Why? When the universe respond to what I say
 (I say, I say, I say, I say, I say, I say, I say, I say)
-(I say, I say, I say, I say, I say, I say, I say, I say)",https://genius.com/Big-sean-why-would-i-stop-lyrics,2020-09-19,2020-09-04,-0.03753283753283753,0.4882571132571134
+(I say, I say, I say, I say, I say, I say, I say, I say)",https://genius.com/Big-sean-why-would-i-stop-lyrics,2020-09-19,2020-09-04,-0.0375328375328375,0.4882571132571134,-0.0419966864411308,0.4867257228368341
 32,9194,1134,DaBaby Featuring Young Thug,Blind,5831408,"Yeah, yeah, yeah
 I've been blind for a while now
 
@@ -2060,7 +2060,7 @@ Yeah, I've been blind for a while now, yeah (Let's go)
 I just got the key, they let me in, no ID
 Doors openin' up for me and now I see
 I've been blind for a while now
-I've been blind for a while now (Yeah)",https://genius.com/Dababy-blind-lyrics,2020-10-03,2020-08-04,-0.1857142857142857,0.5719155844155845
+I've been blind for a while now (Yeah)",https://genius.com/Dababy-blind-lyrics,2020-10-03,2020-08-04,-0.1857142857142857,0.5719155844155845,-0.1837566137566137,0.6191402116402116
 33,9309,1148,21 Savage & Metro Boomin Featuring Drake,Mr. Right Now,6017383,"(Metro)
 
 I'ma slide anytime you want
@@ -2133,7 +2133,7 @@ Just like you wanna stick a dick up in me, I want some motherfuckin' money
 And don't get in your motherfuckin' feelings when you see me in the motherfuckin' club randomly
 And one of your niggas wanna get down on me
 And I wanna give them some pussy 'cause they gave me some money
-Know what I mean? It's easy",https://genius.com/21-savage-and-metro-boomin-mr-right-now-lyrics,2020-10-17,2020-10-02,-0.0431856622430393,0.4870055945875618
+Know what I mean? It's easy",https://genius.com/21-savage-and-metro-boomin-mr-right-now-lyrics,2020-10-17,2020-10-02,-0.0431856622430393,0.4870055945875618,-0.0473781179138322,0.5020663265306122
 34,9633,1182,Jack Harlow,Tyler Herro,6082744,"Yeah
 
 The ones that hate me the most look just like me
@@ -2201,7 +2201,7 @@ Five white boys, but they not NSYNC (No, they not NSYNC, no, they not NSYNC)
 Word to JT, no, they not NSYNC
 Word to JT, no, they not NSYNC
 No, they not NSYNC, no-no
-No, they not NSYNC, oh-oh, oh-oh, oh-oh, oh-oh",https://genius.com/Jack-harlow-tyler-herro-lyrics,2020-11-07,2020-10-22,-0.032466717869943686,0.4520135688684076
+No, they not NSYNC, oh-oh, oh-oh, oh-oh, oh-oh",https://genius.com/Jack-harlow-tyler-herro-lyrics,2020-11-07,2020-10-22,-0.0324667178699436,0.4520135688684076,-0.0551253968253968,0.4266968253968254
 35,9797,1209,DJ Chose Featuring BeatKing,Thick,5908007,"(Ain't that DJ Chose over there?)
 (Look like DJ Chose)
 
@@ -2282,7 +2282,7 @@ Thi-thi-thi-thi-thi-thick (Thick)
 Thi-thi-thi-thi-, fuck, I want all of 'em
 
 (Ain't that DJ Chose over there?)
-(Look like DJ Chose)",https://genius.com/Dj-chose-and-beatking-thick-lyrics,2020-11-14,2020-07-10,-0.15438906331763474,0.4712214372928661
+(Look like DJ Chose)",https://genius.com/Dj-chose-and-beatking-thick-lyrics,2020-11-14,2020-07-10,-0.1543890633176347,0.4712214372928661,-0.17340334396786,0.4842682854779628
 36,9834,1211,"Mike WiLL Made-It, Nicki Minaj & YoungBoy Never Broke Again",What That Speed Bout!?,6126650,"(EarDrummers)
 It's the motherfuckin' queen (30, you a fool for this one)
 NBA YoungBoy, let's go (Pull up and we live for it, yeah)
@@ -2358,7 +2358,7 @@ Real made nigga from the trenches, do no pimpin'
 I got seven figures bouncin' in the car, it look like switches, uh
 Let's have a drink out, after that, we can leave out
 I leave the club, drivin' fast, baby, what that speed 'bout?
-(EarDrummers)",https://genius.com/Mike-will-made-it-nicki-minaj-and-youngboy-never-broke-again-what-that-speed-bout-lyrics,2020-11-21,2020-11-06,-0.0021431419457735245,0.447049441786284
+(EarDrummers)",https://genius.com/Mike-will-made-it-nicki-minaj-and-youngboy-never-broke-again-what-that-speed-bout-lyrics,2020-11-21,2020-11-06,-0.0021431419457735,0.447049441786284,0.0272159090909091,0.4414015151515152
 37,10011,1239,Megan Thee Stallion,Body,6180652,"Real hot girl shit
 Ah
 And if the beat live, you know Lil Ju made it
@@ -2425,7 +2425,7 @@ Body-ody-ody-ody-ody-ody-ody-ody
 Ody-ody-ody-ody-ody-ody-ody (Hey, hey, hey, ah)
 
 Ody-ody-ody-ody
-Mwah",https://genius.com/Megan-thee-stallion-body-lyrics,2020-12-05,2020-11-20,-0.07733253588516746,0.5210526315789475
+Mwah",https://genius.com/Megan-thee-stallion-body-lyrics,2020-12-05,2020-11-20,-0.0773325358851674,0.5210526315789475,-0.0378945707070707,0.4916666666666666
 38,10021,1241,BTS,Stay,6154596,"꿈이었을까
 널 본 것 같아
 눈뜨면 다시
@@ -2488,7 +2488,7 @@ Yeah I know you always stay
 찬바람이 불어와
 손 내밀어 네 숨결을 느껴
 눈 감은 어느새
-우린 함께인 걸",https://genius.com/Bts-stay-lyrics,2020-12-05,2020-11-20,0.0,0.0
+우린 함께인 걸",https://genius.com/Bts-stay-lyrics,2020-12-05,2020-11-20,0.0,0.0,0.0,0.0
 39,10024,1242,Morgan Wallen,Somebody's Problem,5952638,"A 'Bama red 4Runner pulled into the party
 With a 30-A sticker on the back windshield
 Two-tone tank top slippin' off her shoulder
@@ -2537,7 +2537,7 @@ She's somebody's problem and somebody's problem's
 About to be mine
 About to be mine
 About to be mine
-About to be mine",https://genius.com/Morgan-wallen-somebodys-problem-lyrics,2020-12-05,2020-11-20,0.16818181818181818,0.4272727272727272
+About to be mine",https://genius.com/Morgan-wallen-somebodys-problem-lyrics,2020-12-05,2020-11-20,0.1681818181818181,0.4272727272727272,0.1843749999999999,0.3999999999999999
 40,10068,1245,BTS,Fly To My Room,6154633,"떠나볼까 let me fly to my
 시선을 낮추고 어디든 막 zoom
 지금 나와 let me fly to my
@@ -2617,7 +2617,7 @@ And now I'm feelin' brand new
 시선을 낮추고 어디든 막 zoom (you)
 지금 나와 let me fly to my room (fly)
 Get me outta my blues (ah yeah)
-And now I'm feelin' brand new (new)",https://genius.com/Bts-fly-to-my-room-lyrics,2020-12-05,2020-11-20,0.41046717171717184,0.6881313131313129
+And now I'm feelin' brand new (new)",https://genius.com/Bts-fly-to-my-room-lyrics,2020-12-05,2020-11-20,0.4104671717171718,0.6881313131313129,0.4582171717171717,0.7097979797979798
 41,10070,1247,Megan Thee Stallion Featuring DaBaby,Cry Baby,6180686,"Real hot girl shit
 (d.a. got that dope)
 
@@ -2674,7 +2674,7 @@ Then that nigga lame if he still waitin'  (Ah, ah, ah)
 I ain't even save your number (Nope)
 So no, I can't reply to no text (No text)
 I make him cry 'bout the pussy, hmm
-Probably why my shit so wet (Ah, ah, ah, ah, wah, wah, wah)",https://genius.com/Megan-thee-stallion-cry-baby-lyrics,2020-12-05,2020-11-20,-0.1994855967078189,0.6158436213991769
+Probably why my shit so wet (Ah, ah, ah, ah, wah, wah, wah)",https://genius.com/Megan-thee-stallion-cry-baby-lyrics,2020-12-05,2020-11-20,-0.1994855967078189,0.6158436213991769,-0.2078216374269006,0.5935672514619883
 42,10081,1249,Megan Thee Stallion,Shots Fired,6180678,"Brrt, brrt, baow (Buddah Bless this beat)
 
 Imagine niggas lyin' 'bout shootin' a real bitch (Huh?)
@@ -2738,7 +2738,7 @@ Brrt, brrt
 Brrt, haha
 Ah
 Should've let them lock your ass up
-Pussy",https://genius.com/Megan-thee-stallion-shots-fired-lyrics,2020-12-05,2020-11-20,-0.0652872260015117,0.5142101284958427
+Pussy",https://genius.com/Megan-thee-stallion-shots-fired-lyrics,2020-12-05,2020-11-20,-0.0652872260015117,0.5142101284958427,-0.0493919610855094,0.5263696876600104
 43,10085,1251,Meek Mill Featuring Lil Durk,Pain Away,6190674,"Yeah, woo
 
 We was in the trenches tryna get it out the mud
@@ -2784,7 +2784,7 @@ I just hope this money take the pain away
 And I've been tryna save my money for a rainy day
 But I just bought the Rolls truck to take the pain away
 And all these diamonds give me confidence
-Don't judge my pain if you don't know the shit that I'm against, ayy",https://genius.com/Meek-mill-pain-away-lyrics,2020-12-05,2020-11-20,0.07058823529411766,0.4882352941176469
+Don't judge my pain if you don't know the shit that I'm against, ayy",https://genius.com/Meek-mill-pain-away-lyrics,2020-12-05,2020-11-20,0.0705882352941176,0.4882352941176469,0.098076923076923,0.496153846153846
 44,10353,1291,"Kid Cudi, Skepta & Pop Smoke",Show Out,6250768,"Mm, uh, uh, uh, uh
 Ah, uh, uh
 Look
@@ -2848,7 +2848,7 @@ Man down, roll up (We are supreme, she see what I mean)
 Show out, show up (See us pull up, pull up, grrt)
 Back out, pole up (Got 'em runnin', runnin', runnin')
 Man down, roll up (Roll the Fronto, get right)
-Man down, roll up (We are supreme, she see what I mean)",https://genius.com/Kid-cudi-skepta-and-pop-smoke-show-out-lyrics,2020-12-26,2020-12-11,-0.017827380952380963,0.35925595238095254
+Man down, roll up (We are supreme, she see what I mean)",https://genius.com/Kid-cudi-skepta-and-pop-smoke-show-out-lyrics,2020-12-26,2020-12-11,-0.0178273809523809,0.3592559523809525,0.004563492063492,0.3181171319102354
 45,10459,1317,Eminem,Gnat,6285862,"Yeah, yeah, sick
 (d.a. got that dope)
 
@@ -2960,4 +2960,4 @@ Like you took a bite off of that (You took a bite off of that; damn)
 And it goes from martian to human (From martian to human; yeah)
 That's how the virus attacks (That's how the virus attacks)
 They come at me with machine guns (At me with machine guns; brr)
-It's like trying to fight off a gnat (Fight off a gnat)",https://genius.com/Eminem-gnat-lyrics,2021-01-02,2020-12-18,-0.04896151542377958,0.44719826295298004
+It's like trying to fight off a gnat (Fight off a gnat)",https://genius.com/Eminem-gnat-lyrics,2021-01-02,2020-12-18,-0.0489615154237795,0.44719826295298,-0.0579265873015873,0.4579814118629908
