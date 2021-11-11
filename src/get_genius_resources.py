@@ -40,13 +40,12 @@ annotations_list = []
 comments_list = []
 release_date_list = []
 
-lyrics = pd.read_csv('../data/lyrics/bb_t100_lyrics_en.csv', encoding='utf-8', index_col=0)
+lyrics = pd.read_json('../data/lyrics/lyrics_invalid_new.json')
 length = len(lyrics)
 
 printProgressBar(0, length, prefix='Progress:', suffix='Complete', length=50)
 for i in range(0, length):
     resources = get_genius_resources(lyrics['genius_id'].iloc[i])
-    print(resources)
     primary_artist_list.append(resources['primary_artist'])
     description_list.append(resources['description'])
     annotations_list.append(resources['annotations'])
@@ -59,5 +58,5 @@ lyrics['genius_description'] = description_list
 lyrics['genius_annotations'] = annotations_list
 lyrics['genius_comments'] = comments_list
 lyrics['release_date'] = release_date_list
-lyrics.to_csv('../data/lyrics/bb_t100_lyrics_en_v2.csv', encoding='utf-8')
-lyrics.to_excel('../data/output/bb_t100_lyrics_en_v2.xlsx')
+lyrics.to_csv('../data/lyrics/lyrics_invalid_updated_new.csv', encoding='utf-8')
+lyrics.to_excel('../data/output/lyrics_invalid_updated_new.xlsx')

@@ -63,30 +63,31 @@ annotations_list = []
 comments_list = []
 release_date_list = []
 
-artist_song = pd.read_json('../data/artist_song/artist_song.json')
-length = len(artist_song)
-printProgressBar(0, length, prefix='Progress:', suffix='Complete', length=50)
+if __name__ == "__main__":
+    artist_song = pd.read_json('../data/artist_song/artist_song.json')
+    length = len(artist_song)
+    printProgressBar(0, length, prefix='Progress:', suffix='Complete', length=50)
 
-for i in range(0, length):
-    resources = get_genius_resources(artist_song['song'].iloc[i], artist_song['artist'].iloc[i])
-    lyrics_list.append(resources['lyrics'])
-    url_list.append(resources['url'])
-    id_list.append(resources['id'])
-    primary_artist_list.append(resources['primary_artist'])
-    description_list.append(resources['description'])
-    annotations_list.append(resources['annotations'])
-    comments_list.append(resources['comments'])
-    release_date_list.append((resources['release_date']))
-    printProgressBar(i + 1, length, prefix='Progress:', suffix='Complete', length=50)
+    for i in range(0, length):
+        resources = get_genius_resources(artist_song['song'].iloc[i], artist_song['artist'].iloc[i])
+        lyrics_list.append(resources['lyrics'])
+        url_list.append(resources['url'])
+        id_list.append(resources['id'])
+        primary_artist_list.append(resources['primary_artist'])
+        description_list.append(resources['description'])
+        annotations_list.append(resources['annotations'])
+        comments_list.append(resources['comments'])
+        release_date_list.append((resources['release_date']))
+        printProgressBar(i + 1, length, prefix='Progress:', suffix='Complete', length=50)
 
-artist_song['lyrics'] = lyrics_list
-artist_song['url'] = url_list
-artist_song['genius_id'] = id_list
-artist_song['genius_primary_artist'] = primary_artist_list
-artist_song['genius_description'] = description_list
-artist_song['genius_annotations'] = annotations_list
-artist_song['genius_comments'] = comments_list
-artist_song['release_date'] = release_date_list
+    artist_song['lyrics'] = lyrics_list
+    artist_song['url'] = url_list
+    artist_song['genius_id'] = id_list
+    artist_song['genius_primary_artist'] = primary_artist_list
+    artist_song['genius_description'] = description_list
+    artist_song['genius_annotations'] = annotations_list
+    artist_song['genius_comments'] = comments_list
+    artist_song['release_date'] = release_date_list
 
-artist_song.to_csv('../data/lyrics/artist_song_lyrics_new.csv', encoding='utf-8')
-artist_song.to_excel('../data/output/artist_song_lyrics_new.xlsx')
+    artist_song.to_csv('../data/lyrics/artist_song_lyrics_new.csv', encoding='utf-8')
+    artist_song.to_excel('../data/output/artist_song_lyrics_new.xlsx')
