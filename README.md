@@ -3,6 +3,8 @@ This repository accompanies my bachelor thesis *Lyrics Mining: Investigating the
 Make sure to install the required packages: `pip install -r requirements.txt` for alle components to run properly.
 
 ## Execution Order
+All data and results are included in this repository which means running the procedures is unnecessary. See the execution order below to recreate the research process. The steps 1, 4 and 6 request data from the web and are very time consuming. 
+
 1. **top100_spider.py**
 
     `cd crawler/crawler`
