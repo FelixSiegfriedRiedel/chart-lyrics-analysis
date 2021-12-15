@@ -1,28 +1,66 @@
 # chart-lyrics-analysis
-*Exploration of 2020s most heard lyrics based on [Billboard's weekly top 100 lists](https://www.billboard.com/charts/hot-100/2020-01-04).*
+This repository accompanies my bachelor thesis *Lyrics Mining: Investigating the Influence of the Coronavirus on 2020s Music Charts*.
+Make sure to install the required packages: `pip install -r requirements.txt` for alle components to run properly.
 
-## Setup
-### [Scrapy](https://scrapy.org/) package to crawl Billboard
-`pip install Scrapy`
+## Execution Order
+All data and results are included in this repository which means running the procedures is unnecessary. See the execution order below to recreate the research process. The steps 1, 4 and 6 request data from the web and are very time consuming. 
 
-### [lyricsgenius](https://pypi.org/project/lyricsgenius/) package for calling the Genius API
-`pip install lyricsgenius`
+1. **top100_spider.py**
 
-### [Jupyter](https://jupyter.org/) package for creating jupyter notebooks
-`pip install jupyter`
+    `cd crawler/crawler`
+    
+    `scrapy crawl top100 -O R20-BB.json`
+    
+     - crawls Billboard Weekly Hot 100 Charts data
+  
+2. **billboard_weekly_100.ipynb**
 
-### Common packages for exploring and manipulating data
-`pip install numpy`
+    - consolidates G19-BB and R20-BB into BB-T100
+  
+3. **artist_song.ipynb**
 
-`pip install pandas`
+    - groups unique songs and artists and removes censored words
+    - generates BB-AS
+  
+4. **get_genius_lyrics.py \ get_genius_resources_v2.py**
 
-`pip install seaborn`
+    - utilizes LyricsGenius
+    - gets lyrics, comments, annotations, descriptions, urls, ids, release dates from genius.com 
+    - generates BB-L_raw
+  
+5. **lyrics_validation.ipynb**
 
-`pip install matplotlib`
+    - validates lyrics
+    - exports invalid lyrics with manually added GeniusIDs
 
-## Crawling Billboard's weekly top 100 list
-*Crawling is rather time consuming and is only necessary when new weekly list is available*
+6. **get_genius_resources_v2.py**
 
-`cd crawler`
+    - updates invalid genius.com data
 
-`scrapy crawl top100 -O ..\input\top100.json`
+7. **lyrics_preparation.ipynb**
+
+    - adds updated data to BB-L_raw
+    - determines language with LanguageDetector
+    - changes shape and sorting
+    - generates BB-L
+
+8. **data_selection.ipynb**
+
+    - filters English songs
+    - generates BB-T100-EN and BB-L-EN
+
+9. **keywords.ipynb**
+
+    - gets keywords
+    - determines COVID-19 songs
+    - generates wordclouds for most used words
+
+10. **sentiment.ipynb**
+
+    - calculates and plots sentiment scores for lyrics
+
+11. **topics.ipynb**
+
+    - trains LDA model with AZLyrics data
+    - uses model to determine topics for lyrics
+    - plots topic distributions and frequency trends
