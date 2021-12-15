@@ -2,6 +2,8 @@
 This repository accompanies my bachelor thesis *Lyrics Mining: Investigating the Influence of the Coronavirus on 2020s Music Charts*.
 Make sure to install the required packages: `pip install -r requirements.txt` for alle components to run properly.
 
+To make the LyricsGenius package work, a Genius API token needs to be generated [here](https://genius.com/api-clients) and saved to 'src/genius_token.txt'.
+
 ## Execution Order
 All data and results are included in this repository which means running the procedures is unnecessary. See the execution order below to recreate the research process. The steps 1, 4 and 6 request data from the web and are very time consuming. 
 
