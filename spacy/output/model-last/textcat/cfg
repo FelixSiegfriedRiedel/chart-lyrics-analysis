@@ -1,8 +1,0 @@
-{
-  "labels":[
-    "is_corona_line",
-    "is_not_corona_line"
-  ],
-  "threshold":0.5,
-  "positive_label":null
-}

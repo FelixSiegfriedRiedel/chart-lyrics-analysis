@@ -1,7 +1,5 @@
 import lyricsgenius
-import numpy as np
 import pandas as pd
-from requests.exceptions import HTTPError, Timeout
 
 from progress_bar import printProgressBar
 
@@ -64,7 +62,7 @@ comments_list = []
 release_date_list = []
 
 if __name__ == "__main__":
-    artist_song = pd.read_json('../data/artist_song/artist_song.json')
+    artist_song = pd.read_json('../data/artist_song/BB-AS.json')
     length = len(artist_song)
     printProgressBar(0, length, prefix='Progress:', suffix='Complete', length=50)
 
@@ -89,5 +87,5 @@ if __name__ == "__main__":
     artist_song['genius_comments'] = comments_list
     artist_song['release_date'] = release_date_list
 
-    artist_song.to_csv('../data/lyrics/artist_song_lyrics_new.csv', encoding='utf-8')
-    artist_song.to_excel('../data/output/artist_song_lyrics_new.xlsx')
+    artist_song.to_csv('../data/lyrics/BB-L_new_raw.csv', encoding='utf-8')
+    artist_song.to_excel('../data/output/BB-L_new_raw.xlsx')

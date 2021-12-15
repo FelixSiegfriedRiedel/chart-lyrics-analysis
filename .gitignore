@@ -127,3 +127,4 @@ pip-selfcheck.json
 /.ipynb_checkpoints/lyrics-checkpoint.ipynb
 /.ipynb_checkpoints/
 /.idea/
+/src/.pytest_cache/
